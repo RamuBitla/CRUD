@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100vh;
+    /* text-align: center; */
+}
+.tudo-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    font-family: sans-serif;
+    background-color:darkgoldenrod;
+    padding: 20px;
+    gap: 1rem;
+    border-radius: 20px;
+    /* transition: width 2s; */
+}
+/* .tudo-app:hover{
+    width: 50%;
+} */
+.tudo-app:hover{
+    box-shadow: 5px 10px blueviolet;
+}
+.add-tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+}
+.add-tasks label{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.addTask{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    transition: width 2s;
+}
+.addTask:hover{
+    width:95%;
+}
+.submitBtn{
+    width: 15%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+.tasks .added{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.tasks{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 98%;
+    padding-right: 10px;
+}
+.task-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.task{
+    width: 100%;
+}
+.task input{
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    transition: width 2s;
+}
+.task input:hover{
+    width: 95%;
+}
+.taskAdded{
+    width: 50%;
+}
+.taskAdded{
+    padding: 5px;
+}
+.actions{
+    display: flex;
+    gap: 0.4rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.edit{
+    width: 10%;
+    padding: 5px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.delete{
+    width: 12%;
+    padding: 6px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
