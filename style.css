@@ -41,20 +41,21 @@
     padding: 5px;
     border-radius: 5px;
     border: none;
-    width: 50%;
-    transition: width 2s;
+    /* width: 50%; */
+    /* transition: width 2s; */
 }
-.addTask:hover{
+/* .addTask:hover{
     width:95%;
-}
+} */
 .submitBtn{
-    width: 15%;
-    padding: 10px;
+    width: 20%;
+    padding: 0.5rem;
     background-color: green;
     color: white;
     letter-spacing: 1px;
     border: none;
     border-radius: 5px;
+    font-size: 1rem;
     font-family: sans-serif;
 }
 .tasks .added{
@@ -119,4 +120,64 @@
     border-radius: 5px;
     font-weight: bold;
     font-family: sans-serif;
+}
+@media(max-width: 1024px){
+    .submitBtn{
+        width: 20%;
+        font-size: 0.5rem;
+    }
+}
+@media(max-width: 768px){
+    .delete{
+        width: 15%;
+        font-size: 0.8rem;
+    }
+}
+@media(max-width: 650px){
+    .edit{
+        width: 10%;
+        font-size: 0.5rem;
+    }
+    .delete{
+        width: 15%;
+        font-size: 0.5rem;
+    }
+}
+@media(max-width: 500px){
+    .edit{
+        width: 10%;
+        font-size: 0.3rem;
+    }
+    .delete{
+        width: 15%;
+        font-size: 0.3rem;
+    }
+}
+@media(max-width: 350px){
+    .edit{
+        width: 10%;
+        font-size: 0.2rem;
+    }
+    .delete{
+        width: 15%;
+        font-size: 0.2rem;
+    }
+}
+@media(max-width: 450px){
+    .submitBtn{
+        width: 30%;
+        font-size: 7px;
+    }
+}
+@media(max-width: 550px){
+    .submitBtn{
+        width: 20%;
+        font-size: 0.4rem;
+    }
+}
+@media(max-width: 420px){
+    .submitBtn{
+        width: 25%;
+        font-size: 5px;
+    }
 }
